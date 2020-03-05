@@ -1,0 +1,2 @@
+2020-02-24T12:44:28+00:00 CRITICAL Out of memory (allocated 20971520) (tried to allocate 20480 bytes) in C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version3\class-wc-rest-data-currencies-controller.php on line 129
+

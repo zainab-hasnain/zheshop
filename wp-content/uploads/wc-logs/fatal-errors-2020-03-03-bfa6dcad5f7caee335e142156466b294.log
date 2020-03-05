@@ -1,0 +1,9 @@
+2020-03-03T18:45:42+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-includes\class-wp-hook.php on line 290 and defined in C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(720, NULL)
+#1 C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-includes\post.php(4120): do_action('save_post', 720, NULL, true)
+#4 C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-admin\includes\post.php(1838): wp_upda in C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php on line 47
+

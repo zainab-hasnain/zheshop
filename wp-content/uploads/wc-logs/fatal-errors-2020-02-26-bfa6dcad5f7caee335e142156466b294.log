@@ -1,0 +1,2 @@
+2020-02-26T17:00:52+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 32768 bytes) in C:\Zainab\xampp\htdocs\zh-wp-projects\zheshop\wp-content\themes\Divi\includes\builder\frontend-builder\helpers.php on line 192
+
